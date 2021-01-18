@@ -1,4 +1,4 @@
-const sgMail = require('@sendgrid/mail')
+const sgMail = require('@sendgrid/mail');
 
 exports.sendEmailPeriodically = sendEmailPeriodically;
 exports.getTimeOut = getTimeOut;
@@ -34,7 +34,7 @@ async function sendEmail() {
                 console.log('Email sent');
             })
             .catch((error) => {
-                console.error(error)
+                console.error(error);
             })
     }
 }
