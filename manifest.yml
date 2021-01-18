@@ -1,12 +1,13 @@
----
 applications:
-- instances: 1
-  timeout: 180
-  name: servicosapp
-  buildpack: sdk-for-nodejs
+- buildpack: sdk-for-nodejs
   command: npm start
-  memory: 256MB
-  domain: us-south.cf.appdomain.cloud
-  host: servicos-app
+  domain: null
   env:
     OPTIMIZE_MEMORY: true
+  host: null
+  instances: 1
+  memory: 256MB
+  name: servicosapp
+  routes:
+  - route: servicos-app.us-south.cf.appdomain.cloud
+  timeout: 180
