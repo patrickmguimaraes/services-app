@@ -1,0 +1,5 @@
+
+exports.newBill = (req, res) => {
+  
+};
+

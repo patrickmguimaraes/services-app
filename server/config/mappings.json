@@ -1,0 +1,72 @@
+{
+  "db2OnCloud_db": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.db2OnCloud_db"
+    ]
+  },
+  "db2OnCloud_dsn": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.db2OnCloud_dsn"
+    ]
+  },
+  "db2OnCloud_host": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.db2OnCloud_host"
+    ]
+  },
+  "db2OnCloud_hostname": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.db2OnCloud_hostname"
+    ]
+  },
+  "db2OnCloud_https_url": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.db2OnCloud_https_url"
+    ]
+  },
+  "db2OnCloud_jdbcurl": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.db2OnCloud_jdbcurl"
+    ]
+  },
+  "db2OnCloud_parameters": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.db2OnCloud_parameters"
+    ]
+  },
+  "db2OnCloud_password": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.db2OnCloud_password"
+    ]
+  },
+  "db2OnCloud_port": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.db2OnCloud_port"
+    ]
+  },
+  "db2OnCloud_ssldsn": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.db2OnCloud_ssldsn"
+    ]
+  },
+  "db2OnCloud_ssljdbcurl": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.db2OnCloud_ssljdbcurl"
+    ]
+  },
+  "db2OnCloud_uri": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.db2OnCloud_uri"
+    ]
+  },
+  "db2OnCloud_username": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.db2OnCloud_username"
+    ]
+  },
+  "db2OnCloud_serviceInfo": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.db2OnCloud_serviceInfo"
+    ]
+  }
+}
