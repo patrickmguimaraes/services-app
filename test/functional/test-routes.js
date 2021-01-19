@@ -32,6 +32,22 @@ describe('GET /health', () => {
   });
 });
 
+describe('GET /nfse', () => {
+  it('responds with json', () => {
+    return request(server)
+      .get('/nfse/')
+      .expect(204, null);
+  });
+});
+
+describe('POST /bill', () => {
+  it('responds with json', () => {
+    return request(server)
+      .post('/bill/')
+      .expect(204, null);
+  });
+});
+
 describe('GET /swagger/api-docs', () => {
   it('responds with swagger', () => {
     return request(server)

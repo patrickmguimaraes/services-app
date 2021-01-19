@@ -8,5 +8,9 @@
     "parserOptions": { 
         "ecmaVersion": 10,
         "sourceType": "module"
-    }
+    },
+    "rules": {
+        "max-len": "off",
+        "eol-last": ["error", "never"]
+      }
 }
