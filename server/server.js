@@ -45,7 +45,7 @@ https.createServer(credentials, app).listen(port, () => {
   console.log(`App UI available https://localhost:${port}`);
   console.log(`Swagger UI available https://localhost:${port}/swagger/api-docs`);
 
-  EmailHelper.sendEmailPeriodically(8, 10);
+  EmailHelper.sendEmailPeriodically(11, 15);
 });
 
 // error handler for unmatched routes or api calls
