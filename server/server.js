@@ -42,12 +42,12 @@ app.all('', (req, res) => {
 // start node server
 const port = process.env.PORT || 3000;
 //app.listen(port, () => {
-http.createServer(app).listen(3001);
+//http.createServer(app).listen(4000);
 https.createServer(credentials, app).listen(port, () => {
   console.log(`App UI available https://localhost:${port}`);
   console.log(`Swagger UI available https://localhost:${port}/swagger/api-docs`);
   
-  EmailHelper.sendEmailPeriodically(21, 20);
+  EmailHelper.sendEmailPeriodically(21, 50);
 });
 
 // error handler for unmatched routes or api calls
