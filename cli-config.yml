@@ -53,5 +53,4 @@ chart-path : "chart/servicosapp"
 
 # The IBM version of this configuration
 version : "0.0.3"
-ibm-cloud-app-id : "270df234-ae6b-4470-924e-51c4630b1650"
-credentials-filepath : ""
+ibm-cloud-app-id : "Tje-bLdU8NgtAPuxDPTuQdFH9MJP6Vj8BsNCroDg2FZU"
