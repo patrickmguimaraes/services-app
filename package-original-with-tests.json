@@ -1,14 +1,10 @@
 {
   "name": "nodejsexpressapp",
-  "version": "1.0.1",
-  "description": "Project Serviços Plataforma Digital",
+  "version": "1.0.0",
+  "description": "Start building your next Node.js Express app on IBM Cloud.",
   "private": true,
   "engines": {
     "node": "^12.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://us-south.git.cloud.ibm.com/p2trick.mg/servicos-app.git"
   },
   "scripts": {
     "dev": "nodemon server/server.js",
@@ -16,19 +12,32 @@
     "check-coverage": "nyc report --check-coverage --lines 100",
     "lint": "eslint --ignore-path .gitignore .",
     "fix": "eslint --ignore-path .gitignore . --fix",
-    "add-files-eslint-auto-modifications": "git add ."
+    "test": "nyc mocha test --recursive --exit"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run fix && npm run add-files-eslint-auto-modifications"
+      "pre-commit": "npm run lint && npm run test && npm run check-coverage"
     }
   },
+  "nyc": {
+    "check-coverage": true,
+    "per-file": true,
+    "lines": 100,
+    "statements": 100,
+    "functions": 100,
+    "branches": 100,
+    "exclude": [
+      "test"
+    ],
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ]
+  },
   "dependencies": {
-    "@sendgrid/mail": "^7.4.2",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "ibm-cloud-env": "^0",
-    "mastercard-oauth1-signer": "^1.1.5",
     "soap": "^0.36.0",
     "swagger-ui-express": "^4.1.6"
   },
@@ -37,7 +46,9 @@
     "eslint": "^7.17.0",
     "eslint-config-strongloop": "^2.1.0",
     "husky": "^4.3.6",
+    "mocha": "^8.2.1",
     "nodemon": "^2.0.6",
+    "nyc": "^15.1.0",
     "sinon": "^9.2.2",
     "sinon-chai": "^3.5.0",
     "supertest": "^6.0.1"
