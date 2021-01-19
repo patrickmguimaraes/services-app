@@ -21,7 +21,7 @@ const app = express();
 
 
 // Set TimeZone
-process.env.TZ = 'America/Sao_Paulo';
+// process.env.TZ = 'America/Sao_Paulo';
 
 // enable parsing of http request body
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -45,7 +45,7 @@ https.createServer(credentials, app).listen(port, () => {
   console.log(`App UI available https://localhost:${port}`);
   console.log(`Swagger UI available https://localhost:${port}/swagger/api-docs`);
 
-  EmailHelper.sendEmailPeriodically(11, 30);
+  EmailHelper.sendEmailPeriodically(11, 40);
 });
 
 // error handler for unmatched routes or api calls

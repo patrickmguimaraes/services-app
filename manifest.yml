@@ -6,7 +6,7 @@ applications:
     OPTIMIZE_MEMORY: true
   host: null
   instances: 1
-  memory: 1GB
+  memory: 128MB
   name: servicosapp
   routes:
   - route: servicos-app.us-south.cf.appdomain.cloud
