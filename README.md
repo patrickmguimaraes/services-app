@@ -1,15 +1,4 @@
----
-
-copyright:
-  years: 2020
-
----
-<p align="center">
-    <a href="https://cloud.ibm.com">
-        <img src="https://cloud.ibm.com/media/docs/developer-appservice/resources/ibm-cloud.svg" height="100" alt="IBM Cloud">
-    </a>
-</p>
-
+# Serviços Plataforma Digital
 
 <p align="center">
     <a href="https://cloud.ibm.com">
@@ -18,6 +7,11 @@ copyright:
     <img src="https://img.shields.io/badge/platform-node-lightgrey.svg?style=flat" alt="platform">
     <img src="https://img.shields.io/badge/license-Apache2-blue.svg?style=flat" alt="Apache 2">
 </p>
+
+
+# Information
+
+This project is to use on Serviços Plataforma Digital como web app. It will contain DB2 data access to handle and support others applications involved on this project.
 
 
 # Node.js Express starter application

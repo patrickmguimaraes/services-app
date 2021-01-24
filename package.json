@@ -1,5 +1,5 @@
 {
-  "name": "nodejsexpressapp",
+  "name": "services-app",
   "version": "1.0.1",
   "description": "Project Serviços Plataforma Digital",
   "private": true,
@@ -29,6 +29,7 @@
     "express": "^4.17.1",
     "ibm-cloud-env": "^0",
     "mastercard-oauth1-signer": "^1.1.5",
+    "mvc-integrator": "^1.0.3",
     "soap": "^0.36.0",
     "swagger-ui-express": "^4.1.6"
   },
