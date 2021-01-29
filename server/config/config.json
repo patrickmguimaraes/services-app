@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "vcf71284",
+    "password": "x2xl2wr4rgt%2Bvzc8",
+    "database": "BLUDB",
+    "host": "dashdb-txn-sbox-yp-dal09-12.services.dal.bluemix.net",
+    "dialect": "db2"
+  },
+  "test": {
+    "username": "vcf71284",
+    "password": "x2xl2wr4rgt%2Bvzc8",
+    "database": "BLUDB",
+    "host": "dashdb-txn-sbox-yp-dal09-12.services.dal.bluemix.net",
+    "dialect": "db2"
+  },
+  "production": {
+    "username": "vcf71284",
+    "password": "x2xl2wr4rgt%2Bvzc8",
+    "database": "BLUDB",
+    "host": "dashdb-txn-sbox-yp-dal09-12.services.dal.bluemix.net",
+    "dialect": "db2"
+  }
+}
